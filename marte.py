@@ -10,20 +10,6 @@ class Direcoes(object):
 
     posicao = {'W': w, 'N': n, 'E': e, 'S': s}
 
-    # @staticmethod
-    # def proxima_direcao(comando, posicao_atual):
-    #     c_referencia = {"L": -1, "R": 1}
-    #     direcao = ['W', 'N', 'E', 'S']
-    #     m = c_referencia[comando]
-
-    #     inicio = direcao.inicio(posicao_atual)
-    #     proximo_inicio = inicio+m
-    #     if proximo_inicio == len(direcao):
-    #         proximo_inicio = 0
-
-    #     return direcao[proximo_inicio]
-
-
     @staticmethod
     def proxima_direcao(comando, posicao_atual):
         c_referencia = {"L": -1, "R": 1}
